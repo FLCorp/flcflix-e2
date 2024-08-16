@@ -1,0 +1,36 @@
+.timer {
+  font-size: 15px;
+  font-family: Era;
+  color: #fff;
+  position: fixed;
+  z-index: 1000;
+  background-color: #1e1e1e;
+  right: 0px;
+  padding: 10px;
+  border-radius: 0px 0px 0px 10px;
+}
+  
+.timer span {
+  margin: 0 5px;
+}
+
+.timer-txt {
+  color: #ffffff;
+  font-family: Era;
+  text-align: center;
+}
+
+.timer-img{
+  text-align: center;
+  background-color: #000231;
+}
+
+@media screen and (max-width : 768px){
+  .timer {
+    display: none;
+  }
+  .next-version-logo{
+    width: 250px;
+    height: auto;
+  }
+}

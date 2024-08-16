@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="patchnote.css">
+    <link rel="stylesheet" href="timer.css">
+    <link rel="stylesheet" href="slides.css">
+    <title>FLC Flix - Ère 2</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="favicon" href="img/logo.png">
+</head>
+<body>
+    <div class="timer">
+        <span id="days">00</span> jours
+        <span id="hours">00</span> heures
+        <span id="minutes">00</span> minutes
+        <span id="seconds">00</span> secondes
+    </div>
+    <div class="popup" id="popup">
+      <!-- Contenu du popup -->
+      <h2>FLC Flix - Ère 2 est arrivé!</h2>
+      <p>
+        Bienvenue sur le nouveau FLC Flix! Et qui dit nouveau FLC Flix, dit nouvelle tête! Et oui, ça y est, FLC Flix
+        prend une nouvelle tête avec sa Seconde Ère. En parlant de nouvelle tête, que peux bien accueilir cette nouvelle Ère? <br>
+        Pour commencer, cette nouvelle Ère accueille une barre de navigation revisitée! Plus de navigation en haut de page, mais
+        une navigation en bas de page, contenant seulement les boutons pour aller à l'accueil, aller à la barre de recherche, ouvrir
+        les Paramètres et l'Espace Compte. Sur la page d'accueil, les boutons pour ouvrir le Patch Note et le Popup d'Informations sont présents. <br>
+        Ensuite, pour la navigation basique, en appuyant sur la logo "FLC Flix - Ère 2", vous pourrez ouvrir le Menu Latéral, vous permettant
+        d'accéder aux différentes pages du site, tel que la page des Films, des Séries, des Documentaires etc... <br>
+        Nous espérons que cette nouvelle Ère de FLC Flix vous plairas, et nous restons à votre disposition en cas de problèmes. <br><br>
+        FloLeCrafteur
+      </p>
+      <a id="closeButton">
+        <button>
+          Fermer
+        </button>
+      </a>
+    </div>
+    <div class="popup" id="popup2">
+      <!-- Contenu du popup -->
+      <h2>FLC Flix - Ère 2 | Informations</h2>
+      <p>
+        Voici les informations à savoir pour bien comprend comment est structuré la nouvelle Ère de FLC Flix <br>
+        Premièrement, vous avez la Barre de Navigation! Comme vous l'avez remarqué, elle est située en bas de l'écran, et possède plusieurs boutons. La Maison pour retourner à l'Accueil, la Loupe pour se diriger vers la Barre de Recherche, la Bulle pour ouvrir le Patch Note, l'Engrenage pour ouvrir les Paramètres, le Bonhomme pour ouvrir son Espace Compte, puis le "I" pour avoir ces informations. Le Logo "FLC Flix - Ère 2" permet d'ouvrir le Menu Latéral, permettant de naviguer à travers les pages <br>
+        Deuxièmement, vous avez une inscription tout en haut de la page. Il s'agit de l'indication de la version actuelle. Cela permet de savoir à quelle version de la nouvelle Ère nous sommes, et quand cette version est sortie.
+      </p>
+      <a id="closeButton2">
+        <button>
+          Fermer
+        </button>
+      </a>
+    </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" id="closeSidebarBtn">&times;</a>
+        <nav>
+            <ul>
+                <li><a href="films.html" id="link">Films</a></li>
+                <li><a href="series.html" id="link">Séries</a></li>
+                <li><a href="docs.html" id="link">Documentaires</a></li>
+                <li><a href="https://flcorp.github.io/nora-group/" id="link" target="_blank">Groupe Nora</a></li>
+            </ul>
+            <div class="websites">
+              <a href="https://flcorp.github.io/flcanimes/" target="_blank"><img src="img/FLC-Animes-E1_logo.png" width="100"></a>
+              <a href="https://flcorp.github.io/flchill/" target="_blank"><img src="img/FLChill-E2_logo.png" width="100"></a>
+            </div>
+        </nav>
+    </div>
+    <div class="nav-bar" id="navigation">
+        <a href="#top"><img src="img/icons/home-selected.png" id="home" alt=""></a>
+        <a href="#search-container"><img src="img/icons/search.png" id="search" alt=""></a>
+        <a id="showPopupButton"><img src="img/icons/patch-note.png" id="patchNote" alt=""></a>
+        <a id="openSidebarBtn"><img src="img/logo.png" alt=""></a>
+        <a id="showSecondPopupButton"><img src="img/icons/infos.png" id="more" alt=""></a>
+        <a href="settings.html"><img src="img/icons/settings.png" alt=""></a>
+        <a href="account.html"><img src="img/icons/user.png" alt=""></a>
+    </div>
+    <header id="top">
+        <p>FLC Flix - Ère 2 | Version 1.0.0 - Dernière MàJ le 01/08/2024</p>
+    </header>
+
+    <div class="top-section">
+        <img src="img/title.png" alt="">
+        <p>Bienvenue sur <strong class="flcflix">FLC Flix</strong> - <strong class="era">Ère 2</strong></p>
+    </div>
+    <br>
+    <section class="principalpage">
+        <div class="slideshow-container" id="news-films">
+          <h1>Nouveautés du Mois</h1>
+            <div class="slide fade" id="filmsSection">
+                <div class="content">
+                    <img src="img/posters/films/action/argylle.jpg" class="affiche" alt="Affiche 1">
+                    <h2 class="title">Argylle</h2>
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, laboriosam, ex animi culpa facilis adipisci numquam tenetur totam dicta molestias laudantium aperiam, ut nobis illum accusantium consequuntur placeat in. Nostrum!</p>
+                    <a href=""><button class="watch-btn">Regarder</button></a>
+                </div>
+            </div>
+            <div class="slide fade" id="filmsSection">
+                <div class="content">
+                    <img src="img/posters/films/action/bac_nord.jpg" class="affiche" alt="Affiche 2">
+                    <h2 class="title">Bac Nord</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum veniam tenetur quo facilis? Labore, voluptates quisquam illum similique itaque ipsam quas, harum iusto nihil eius quia aliquid. Sapiente, voluptate ex?</p>
+                    <a href=""><button class="watch-btn">Regarder</button></a>
+                </div>
+            </div>
+            <div class="slide fade" id="filmsSection">
+                <div class="content">
+                    <img src="img/posters/films/action/black_adam.jpg" class="affiche" alt="Affiche 3">
+                    <h2 class="title">Black Adam</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum veniam tenetur quo facilis? Labore, voluptates quisquam illum similique itaque ipsam quas, harum iusto nihil eius quia aliquid. Sapiente, voluptate ex?</p>
+                    <a href=""><button class="watch-btn">Regarder</button></a>
+                </div>
+            </div>
+            <div class="slide fade" id="filmsSection">
+                <div class="content">
+                    <img src="img/posters/films/action/bullet_train_poster.jpg" class="affiche" alt="Affiche 4">
+                    <h2 class="title">Bullet Train</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum veniam tenetur quo facilis? Labore, voluptates quisquam illum similique itaque ipsam quas, harum iusto nihil eius quia aliquid. Sapiente, voluptate ex?</p>
+                    <a href=""><button class="watch-btn">Regarder</button></a>
+                </div>
+            </div>
+            <div class="slide fade" id="seriesSection">
+                <div class="content">
+                    <img src="img/posters/series/1899.jpg" class="affiche" alt="Affiche 4">
+                    <h2 class="title">1899</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum veniam tenetur quo facilis? Labore, voluptates quisquam illum similique itaque ipsam quas, harum iusto nihil eius quia aliquid. Sapiente, voluptate ex?</p>
+                    <a href=""><button class="watch-btn">Regarder</button></a>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="media-section" id="series">
+            <h1>Nouvelles Saisons du <strong class="era">XO/XO/2024</strong></h1>
+            <a href=""><img src="img/posters/series/ahs_s2.jpg" width="170" height="250" class="first-media"></a>
+            <a href=""><img src="img/posters/series/ahs_s3.jpg" width="170" height="250" class="media"></a>
+            <a href=""><img src="img/posters/series/ahs_s4.jpg" width="170" height="250" class="last-media"></a>
+        </div>
+    </section>
+    <section class="bottompage">
+    
+        <div class="search-section">
+          <img src="img/search-bar-title.png" id="search-container">
+          <div class="input__container" id="search-bar-container">
+            <div class="shadow__input"></div>
+            <button class="input__button__shadow">
+              <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20px" width="20px">
+                <path d="M4 9a5 5 0 1110 0A5 5 0 014 9zm5-7a7 7 0 104.2 12.6.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093A7 7 0 009 2z" fill-rule="evenodd" fill="#17202A"></path>
+              </svg>
+            </button>
+            <input type="text" name="text" class="input__search" id="search-input" placeholder="Que souhaites-tu rechercher?">
+          </div>
+        </div><br><br><br>
+    </section>
+
+    <footer>
+        <p>Un site de FloLeCrafteur</p>
+        <p>Hébergé sous les Services de GitHub</p>
+    </footer>
+
+    <script src="menu.js"></script>
+    <script src="icons.js"></script>
+    <script src="patchnote.js"></script>
+    <script src="search.js"></script>
+    <script src="timer.js"></script>
+    <script src="slides.js"></script>
+    <script src="slides2.js"></script>
+</body>
+</html>
